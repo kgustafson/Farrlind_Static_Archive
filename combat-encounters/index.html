@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Combat Encounters | The Farrlind Archivum</title>
+  <link rel="stylesheet" href="http://127.0.0.1:8002/static/review.css">
+</head>
+<body class="archive-dashboard">
+  <header class="app-header">
+    <a class="brand" href="/">The Farrlind Archivum</a>
+    <nav class="top-nav">
+      <span class="mode-pill mode-archive">Published Archive</span>
+      <a href="/">Sessions</a>
+    </nav>
+  </header>
+  <div class="app-shell">
+    <aside class="archive-sidebar" aria-label="Campaign archive navigation">
+      <div class="sidebar-title">
+        <span>Codex Index</span>
+      </div>
+      <nav class="sidebar-nav">
+        <a class="sidebar-link " href="/">Sessions</a>
+        
+        <a class="sidebar-link " href="/wells">Wells of Magic</a>
+        <a class="sidebar-link " href="/npcs">NPC Registry</a>
+        <a class="sidebar-link " href="/locations">Locations</a>
+        <a class="sidebar-link " href="/artifacts">Artifacts</a>
+        <a class="sidebar-link " href="/lore-items">Lore Items</a>
+        <a class="sidebar-link active" href="/combat-encounters">Combat Encounters</a>
+        <a class="sidebar-link " href="/open-threads">Open Threads</a>
+        <a class="sidebar-link " href="/songbook">Faban&rsquo;s Songbook</a>
+        <a class="sidebar-link world-map-link" href="#world-map-modal">World Map</a>
+        
+        <a class="sidebar-link " href="/timeline">Campaign Timeline</a>
+      </nav>
+    </aside>
+    <main>
+      
+<section class="page-head archive-section-head">
+  <div class="archive-section-title">
+    <div>
+      <p class="eyebrow">Blades, Beasts, and Battle Records</p>
+      <h1>Combat Encounters</h1>
+      <p>Canon combat scenes by session, with enemy counts, types, outcomes, and unknown quantities marked plainly.</p>
+    </div>
+    <img class="archive-section-icon" src="/static/combat-encounters-icon.png" alt="" aria-hidden="true">
+  </div>
+</section>
+
+<section class="archive-stat-row" aria-label="Combat statistics">
+  <div class="archive-stat-card murder-hobo-card">
+    <span class="stat-label">Murder Hobo Count</span>
+    <strong>21</strong>
+    <span class="stat-note">
+      Confirmed party kills from combat rows with killed or defeated outcomes.
+      
+    </span>
+  </div>
+</section>
+
+<section class="table-wrap archive-ledger" aria-label="Combat encounter ledger">
+  <table class="status-table combat-table">
+    <caption>Combat Encounter Ledger</caption>
+    <thead>
+      <tr>
+        <th>Session</th>
+        <th>Encounter</th>
+        <th>Location</th>
+        <th>Enemies</th>
+        <th>Total</th>
+        <th>Outcome</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td class="session-cell" data-label="Session">
+          Session 00 -&gt; Session 01
+          <span class="subtle-line">The Party forms</span>
+        </td>
+        <td data-label="Encounter">
+          <strong>Rock-being street attack</strong>
+          <span class="subtle-line">construct_attack</span>
+          <span class="badge status-in_review">high</span>
+        </td>
+        <td data-label="Location">Bentrios</td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Regenerating construct</span>
+                  <span class="enemy-type">construct</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            1
+          
+        </td>
+        <td data-label="Outcome">continues_into_session01</td>
+        <td data-label="Notes">Loaded from encounters.yaml: The newly formed party rushes into the streets and is attacked.</td>
+      </tr>
+      
+      <tr>
+        <td class="session-cell" data-label="Session">
+          Session 03
+          <span class="subtle-line">The Battle of the Fey Witch</span>
+        </td>
+        <td data-label="Encounter">
+          <strong>Fey witch battle</strong>
+          <span class="subtle-line">fey_witch</span>
+          <span class="badge status-in_review">high</span>
+        </td>
+        <td data-label="Location">Fey Woods</td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Fey witch</span>
+                  <span class="enemy-type">fey_witch</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+                <li>
+                  <span class="enemy-count">2</span>
+                  <span class="enemy-name">Goblin</span>
+                  <span class="enemy-type">goblin</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            3
+          
+        </td>
+        <td data-label="Outcome">enemies_defeated</td>
+        <td data-label="Notes">Loaded from encounters.yaml: The party defeats the fey witch and her summoned goblins.</td>
+      </tr>
+      
+      <tr>
+        <td class="session-cell" data-label="Session">
+          Session 06
+          <span class="subtle-line">The Day in Bentrios</span>
+        </td>
+        <td data-label="Encounter">
+          <strong>Dinosaur at the Fey forest edge</strong>
+          <span class="subtle-line">beast_attack</span>
+          <span class="badge status-in_review">medium</span>
+        </td>
+        <td data-label="Location">Thataways</td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Dinosaur</span>
+                  <span class="enemy-type">beast</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            1
+          
+        </td>
+        <td data-label="Outcome">enemy_defeated</td>
+        <td data-label="Notes">Loaded from encounters.yaml: The creature is described as a large lizard/dinosaur.</td>
+      </tr>
+      
+      <tr>
+        <td class="session-cell" data-label="Session">
+          Session 07
+          <span class="subtle-line">In Defense of the Tree and the Well of Magic</span>
+        </td>
+        <td data-label="Encounter">
+          <strong>Defense of Thataways against Ardema</strong>
+          <span class="subtle-line">settlement_defense</span>
+          <span class="badge status-in_review">high</span>
+        </td>
+        <td data-label="Location">Thataways</td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Ardema</span>
+                  <span class="enemy-type">warlock</span>
+                  <span class="enemy-outcome">fled</span>
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            1
+          
+        </td>
+        <td data-label="Outcome">enemy_fled</td>
+        <td data-label="Notes">Loaded from encounters.yaml: Ardema attacks during the defense of the Tree and Well of Magic.</td>
+      </tr>
+      
+      <tr>
+        <td class="session-cell" data-label="Session">
+          Session 09 -&gt; Session 10
+          <span class="subtle-line">Bellemaine</span>
+        </td>
+        <td data-label="Encounter">
+          <strong>Bellemaine construct attack</strong>
+          <span class="subtle-line">construct_controller</span>
+          <span class="badge status-in_review">high</span>
+        </td>
+        <td data-label="Location">Bellemaine</td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Bellemaine construct</span>
+                  <span class="enemy-type">construct</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Cultist controller</span>
+                  <span class="enemy-type">cultist</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            2
+          
+        </td>
+        <td data-label="Outcome">continues_into_session10</td>
+        <td data-label="Notes">Loaded from encounters.yaml: A construct controlled by an orb-bearing individual attacks Bellemaine.</td>
+      </tr>
+      
+      <tr>
+        <td class="session-cell" data-label="Session">
+          Session 10
+          <span class="subtle-line">Attack Continues and We Begin our Journey North</span>
+        </td>
+        <td data-label="Encounter">
+          <strong>Dao transformation battle</strong>
+          <span class="subtle-line">elemental_battle</span>
+          <span class="badge status-in_review">high</span>
+        </td>
+        <td data-label="Location">Bellemaine</td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Dao</span>
+                  <span class="enemy-type">elemental</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            1
+          
+        </td>
+        <td data-label="Outcome">enemies_defeated</td>
+        <td data-label="Notes">Loaded from encounters.yaml: The elemental reaches the orb, transforms into a Dao, summons a marl, and is defeated.</td>
+      </tr>
+      
+      <tr>
+        <td class="session-cell" data-label="Session">
+          Session 12
+          <span class="subtle-line">Battle of Sam</span>
+        </td>
+        <td data-label="Encounter">
+          <strong>Sam caravan battle</strong>
+          <span class="subtle-line">ambush</span>
+          <span class="badge status-in_review">high</span>
+        </td>
+        <td data-label="Location">Road to Archaeological Dig Site</td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">5</span>
+                  <span class="enemy-name">Hostile ranger</span>
+                  <span class="enemy-type">ranger</span>
+                  <span class="enemy-outcome">defeated_or_fled</span>
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            5
+          
+        </td>
+        <td data-label="Outcome">enemies_defeated_or_fled</td>
+        <td data-label="Notes">Loaded from encounters.yaml: Sam, hostile rangers, and summoned frog-like creatures attack at the rear of the caravan.</td>
+      </tr>
+      
+      <tr>
+        <td class="session-cell" data-label="Session">
+          Session 14
+          <span class="subtle-line">Another Day</span>
+        </td>
+        <td data-label="Encounter">
+          <strong>Biha-Bibir battle at Paramon</strong>
+          <span class="subtle-line">elemental_sea_battle</span>
+          <span class="badge status-in_review">high</span>
+        </td>
+        <td data-label="Location">Paramon</td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Biha-Bibir</span>
+                  <span class="enemy-type">sea_entity</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Water elemental</span>
+                  <span class="enemy-type">elemental</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            2
+          
+        </td>
+        <td data-label="Outcome">enemies_defeated</td>
+        <td data-label="Notes">Loaded from encounters.yaml: Biha-Bibir rises from the water with a water elemental and is defeated.</td>
+      </tr>
+      
+      <tr>
+        <td class="session-cell" data-label="Session">
+          Session 16
+          <span class="subtle-line">Session 16</span>
+        </td>
+        <td data-label="Encounter">
+          <strong>Iron Paw summons Wasterlich and fish-things</strong>
+          <span class="subtle-line">temple_battle</span>
+          <span class="badge status-in_review">high</span>
+        </td>
+        <td data-label="Location">Paramon</td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">3</span>
+                  <span class="enemy-name">Fish-thing</span>
+                  <span class="enemy-type">aquatic_creature</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Iron Paw</span>
+                  <span class="enemy-type">warlock</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Wasterlich</span>
+                  <span class="enemy-type">undead</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            5
+          
+        </td>
+        <td data-label="Outcome">enemies_defeated</td>
+        <td data-label="Notes">Loaded from encounters.yaml: Iron Paw summons a Wasterlich and three fish-things before being defeated.</td>
+      </tr>
+      
+      <tr>
+        <td class="session-cell" data-label="Session">
+          Session 19
+          <span class="subtle-line">Of Teeth, Memory, and What Remains</span>
+        </td>
+        <td data-label="Encounter">
+          <strong>Orsydon summoned in Balrog</strong>
+          <span class="subtle-line">dragon_summoning</span>
+          <span class="badge status-in_review">high</span>
+        </td>
+        <td data-label="Location">Balrog</td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">3</span>
+                  <span class="enemy-name">Cultist melee fighter</span>
+                  <span class="enemy-type">cultist_melee</span>
+                  <span class="enemy-outcome">killed</span>
+                </li>
+              
+                <li>
+                  <span class="enemy-count">2</span>
+                  <span class="enemy-name">Cultist spellcaster</span>
+                  <span class="enemy-type">cultist_spellcaster</span>
+                  <span class="enemy-outcome">killed</span>
+                </li>
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Orsydon</span>
+                  <span class="enemy-type">dragon</span>
+                  <span class="enemy-outcome">defeated</span>
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            6
+          
+        </td>
+        <td data-label="Outcome">dragon_defeated</td>
+        <td data-label="Notes">Loaded from encounters.yaml: Cultists summon Orsydon in Balrog; the party defeats the dragon.</td>
+      </tr>
+      
+    </tbody>
+  </table>
+</section>
+
+      <footer class="app-version">Farrlind Campaign v0.4.31</footer>
+    </main>
+  </div>
+  <section id="world-map-modal" class="world-map-modal-backdrop" aria-labelledby="world-map-title">
+    <div class="world-map-modal" role="dialog" aria-modal="true">
+      <div class="modal-head world-map-head">
+        <h2 id="world-map-title">Farrlind World Map</h2>
+        <a class="modal-close" href="/combat-encounters" aria-label="Close world map">x</a>
+      </div>
+      <div class="world-map-frame">
+        <img src="/static/farrlind-world-map.png" alt="Map of Farrlind">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
