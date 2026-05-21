@@ -1,9 +1,9 @@
 {
-  "base_url": "http://127.0.0.1:8002",
-  "output_dir": "/Volumes/T7_WORK/AI_RAG/dist/archive",
+  "base_url": "http://web_archive:8000",
+  "output_dir": "/app/dist/archive",
   "page_count": 80,
   "file_count": 125,
-  "byte_count": 167192530,
+  "byte_count": 167192690,
   "song_audio_files": 26,
   "pages": [
     "/",
