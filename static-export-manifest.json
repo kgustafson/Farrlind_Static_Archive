@@ -1,13 +1,13 @@
 {
   "source": "farrlind_archive_app",
   "output_dir": "dist/archive",
-  "page_count": 80,
-  "file_count": 125,
-  "byte_count": 167203012,
+  "page_count": 79,
+  "file_count": 123,
+  "byte_count": 166849409,
   "song_audio_files": 26,
+  "world_map_files": 1,
   "pages": [
     "/",
-    "/wells",
     "/npcs",
     "/locations",
     "/artifacts",

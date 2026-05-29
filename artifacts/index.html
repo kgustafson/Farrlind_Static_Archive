@@ -22,14 +22,15 @@
       <nav class="sidebar-nav">
         <a class="sidebar-link " href="/">Sessions</a>
         
-        <a class="sidebar-link " href="/wells">Wells of Magic</a>
         <a class="sidebar-link " href="/npcs">NPC Registry</a>
         <a class="sidebar-link " href="/locations">Locations</a>
         <a class="sidebar-link active" href="/artifacts">Artifacts</a>
         <a class="sidebar-link " href="/lore-items">Lore Items</a>
         <a class="sidebar-link " href="/combat-encounters">Combat Encounters</a>
         <a class="sidebar-link " href="/open-threads">Open Threads</a>
-        <a class="sidebar-link " href="/songbook">Faban&rsquo;s Songbook</a>
+        
+        <a class="sidebar-link " href="/songbook">Faban&#39;s Songbook</a>
+        
         <a class="sidebar-link world-map-link" href="#world-map-modal">World Map</a>
         
         <a class="sidebar-link " href="/timeline">Campaign Timeline</a>
@@ -72,6 +73,38 @@
       </tr>
     </thead>
     <tbody>
+      
+      <tr>
+        <td class="session-cell" data-label="Name">
+          
+            <span class="hover-note" title="Known Wells:
+
+- Khorag: Located beneath the World Tree in Thataways. Stable when encountered. Connected to nature and divine natural power.
+- Ordor: Located in Paramon. Disturbed after Salazar used the Wand of Wells with lightning.
+- Saiffi: Located in Balrog. Truth-bound, wise, and currently with the party in a waterskin.
+- Open Hand: Believed to be at or near the Gale Monastery.
+- Nebain: In the sunken city of Catur.
+- Hanedal: Believed to be on Hanedal Island.">Wells of Magic</span>
+          
+        </td>
+        <td data-label="Type">World Item</td>
+        <td data-label="Discovered">Session 0</td>
+        <td data-label="Holder">—</td>
+        <td data-label="Flags">
+          <span class="badge status-reviewed">sentient</span>
+          
+          
+          
+        </td>
+        <td data-label="Description">The Wells of Magic are ancient, sentient or semi-sentient sources of primordial and elemental power. They are not merely reservoirs of magic; they appear tied to the balance of the world, the Cataclysm cycle, and the consequences of mortals or outsiders attempting to control forces that exceed ordinary magic.</td>
+        <td data-label="Lore">- There are six Wells of Magic.
+- Wells are bound to tell the truth.
+- The Wand of Wells is the only known method to close or control a Well.
+- The Wand of Wells was last known to be held by Jennifer Wilbreta and is currently missing.
+- A Cataclysm can be delayed, but may not be fully stoppable.
+- The Wells are connected to elemental and primordial forces, including Order, Chaos, and Arcana.</td>
+        
+      </tr>
       
       <tr>
         <td class="session-cell" data-label="Name">
@@ -304,7 +337,7 @@ Staff of Defense, noted for its ability to prevent contact with sharp objects, b
 
 
 
-      <footer class="app-version">Farrlind Campaign v0.5.0</footer>
+      <footer class="app-version">Farrlind Campaign v0.6.3</footer>
     </main>
   </div>
   <section id="world-map-modal" class="world-map-modal-backdrop" aria-labelledby="world-map-title">
@@ -314,8 +347,11 @@ Staff of Defense, noted for its ability to prevent contact with sharp objects, b
         <a class="modal-close" href="/artifacts" aria-label="Close world map">x</a>
       </div>
       <div class="world-map-frame">
-        <img src="/static/farrlind-world-map.png" alt="Map of Farrlind">
+        
+        <img src="/media/world-map.png" alt="Map of Farrlind">
+        
       </div>
+      
     </div>
   </section>
 </body>
