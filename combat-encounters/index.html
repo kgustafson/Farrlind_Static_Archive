@@ -60,7 +60,7 @@
 <section class="archive-stat-row" aria-label="Combat statistics">
   <div class="archive-stat-card murder-hobo-card">
     <span class="stat-label">Murder Hobo Count</span>
-    <strong>21</strong>
+    <strong>36</strong>
     <span class="stat-note">
       Confirmed party kills from combat enemy killed-count rows.
       
@@ -221,6 +221,8 @@
                   <span class="enemy-type">warlock</span>
                   <span class="enemy-outcome">fled</span>
                   
+                    <span class="enemy-kill-count">fled</span>
+                  
                 </li>
               
             </ul>
@@ -332,10 +334,32 @@
             <ul class="enemy-list">
               
                 <li>
+                  <span class="enemy-count">2</span>
+                  <span class="enemy-name">Frog-like creature</span>
+                  <span class="enemy-type">summoned_beast</span>
+                  <span class="enemy-outcome">defeated</span>
+                  
+                    <span class="enemy-kill-count">2 killed</span>
+                  
+                </li>
+              
+                <li>
                   <span class="enemy-count">5</span>
                   <span class="enemy-name">Hostile ranger</span>
                   <span class="enemy-type">ranger</span>
                   <span class="enemy-outcome">defeated_or_fled</span>
+                  
+                    <span class="enemy-kill-count">5 killed</span>
+                  
+                </li>
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Sam</span>
+                  <span class="enemy-type">necrotic_agent</span>
+                  <span class="enemy-outcome">defeated</span>
+                  
+                    <span class="enemy-kill-count">1 killed</span>
                   
                 </li>
               
@@ -344,7 +368,7 @@
         </td>
         <td data-label="Total">
           
-            5
+            8
           
         </td>
         <td data-label="Outcome">enemies_defeated_or_fled</td>
@@ -509,13 +533,85 @@
         <td data-label="Notes">Loaded from encounters.yaml: Cultists summon Orsydon in Balrog; the party defeats the dragon.</td>
       </tr>
       
+      <tr>
+        <td data-label="Encounter">
+          <strong>Combat against the Marrow</strong>
+          <span class="subtle-line">melee_combat</span>
+          <span class="badge status-in_review">high</span>
+          
+        </td>
+        <td data-label="Battle Locale">
+          <span class="combat-location">Catur&#39;s Well Chamber</span>
+        </td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">9</span>
+                  <span class="enemy-name">Marrow</span>
+                  <span class="enemy-type">fish_like_humanoid</span>
+                  <span class="enemy-outcome">killed</span>
+                  
+                    <span class="enemy-kill-count">6 killed</span>
+                  
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            9
+          
+        </td>
+        <td data-label="Outcome">killed</td>
+        <td data-label="Notes">—</td>
+      </tr>
+      
+      <tr>
+        <td data-label="Encounter">
+          <strong>Confrontation with the Leviathan</strong>
+          <span class="subtle-line">elemental_battle</span>
+          <span class="badge status-in_review">high</span>
+          
+        </td>
+        <td data-label="Battle Locale">
+          <span class="combat-location">Catur&#39;s Well Chamber</span>
+        </td>
+        <td data-label="Enemies">
+          
+            <ul class="enemy-list">
+              
+                <li>
+                  <span class="enemy-count">1</span>
+                  <span class="enemy-name">Leviathan</span>
+                  <span class="enemy-type">water_creature</span>
+                  <span class="enemy-outcome">defeated</span>
+                  
+                    <span class="enemy-kill-count">1 killed</span>
+                  
+                </li>
+              
+            </ul>
+          
+        </td>
+        <td data-label="Total">
+          
+            1
+          
+        </td>
+        <td data-label="Outcome">defeated</td>
+        <td data-label="Notes">The party fought the gargantuan water creature, the Leviathan, which acted as a damage sponge, and managed to defeat it.</td>
+      </tr>
+      
     </tbody>
   </table>
 </section>
 
 
 
-      <footer class="app-version">Farrlind Campaign v0.6.4</footer>
+      <footer class="app-version">Farrlind Campaign v0.7.7 · c541f9f</footer>
     </main>
   </div>
   <section id="world-map-modal" class="world-map-modal-backdrop" aria-labelledby="world-map-title">
