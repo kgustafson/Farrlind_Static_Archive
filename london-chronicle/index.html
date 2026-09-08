@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The London Chronicle</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #201a14;
+      --rule: #6e6254;
+      --paper: #f7f0e3;
+      --paper-deep: #eadcc8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(90, 67, 44, 0.06), transparent 18%, transparent 82%, rgba(90, 67, 44, 0.06)),
+        var(--paper);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 48px;
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 3px double var(--rule);
+      padding-bottom: 18px;
+      margin-bottom: 24px;
+    }
+
+    .kicker {
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 8px 0 4px;
+      font-size: clamp(2.4rem, 8vw, 5rem);
+      line-height: 0.95;
+      font-weight: 700;
+    }
+
+    .established {
+      font-size: 1.35rem;
+      font-style: italic;
+    }
+
+    .issue-list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .issue-list a {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      align-items: baseline;
+      padding: 14px 16px;
+      color: var(--ink);
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.32);
+      border: 1px solid rgba(110, 98, 84, 0.55);
+    }
+
+    .issue-list a:hover,
+    .issue-list a:focus-visible {
+      background: var(--paper-deep);
+      outline: 2px solid var(--rule);
+      outline-offset: 2px;
+    }
+
+    .date {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .number {
+      white-space: nowrap;
+      font-size: 1rem;
+      font-style: italic;
+    }
+
+    footer {
+      margin-top: 24px;
+      padding-top: 14px;
+      border-top: 1px solid var(--rule);
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    @media (max-width: 560px) {
+      .issue-list a {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="kicker">Established 1770</div>
+      <h1>The London Chronicle</h1>
+      <div class="established">Selected Issues from 1881</div>
+    </header>
+
+    <ol class="issue-list">
+      <li>
+        <a href="Newspaper%20-%201881%20June%2011.pdf">
+          <span class="date">Saturday, June 11, 1881</span>
+          <span class="number">No. 14,391</span>
+        </a>
+      </li>
+      <li>
+        <a href="Newspaper%20-%201881%20June%2012.pdf">
+          <span class="date">Sunday, June 12, 1881</span>
+          <span class="number">No. 14,392</span>
+        </a>
+      </li>
+      <li>
+        <a href="Newspaper%20-%201881%20June%2013.pdf">
+          <span class="date">Monday, June 13, 1881</span>
+          <span class="number">No. 14,393</span>
+        </a>
+      </li>
+      <li>
+        <a href="Newspaper%20-%201881%20June%2023.pdf">
+          <span class="date">Thursday, June 23, 1881</span>
+          <span class="number">No. 14,403</span>
+        </a>
+      </li>
+      <li>
+        <a href="Newspaper%20-%201881%20June%2026.pdf">
+          <span class="date">Sunday, June 26, 1881</span>
+          <span class="number">No. 14,406</span>
+        </a>
+      </li>
+    </ol>
+
+    <footer>
+      Open an issue to view the newspaper PDF.
+    </footer>
+  </main>
+</body>
+</html>
