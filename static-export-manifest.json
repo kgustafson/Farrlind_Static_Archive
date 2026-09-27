@@ -1,10 +1,10 @@
 {
   "source": "farrlind_archive_app",
   "output_dir": "dist/archive",
-  "page_count": 94,
-  "file_count": 139,
-  "byte_count": 175338908,
-  "song_audio_files": 27,
+  "page_count": 95,
+  "file_count": 141,
+  "byte_count": 183736509,
+  "song_audio_files": 28,
   "world_map_files": 1,
   "pages": [
     "/",
@@ -100,6 +100,7 @@
     "/songbook/24/lyrics",
     "/songbook/25/lyrics",
     "/songbook/26/lyrics",
-    "/songbook/27/lyrics"
+    "/songbook/27/lyrics",
+    "/songbook/28/lyrics"
   ]
 }
