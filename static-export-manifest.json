@@ -1,9 +1,9 @@
 {
   "source": "farrlind_archive_app",
   "output_dir": "dist/archive",
-  "page_count": 95,
-  "file_count": 141,
-  "byte_count": 183736509,
+  "page_count": 97,
+  "file_count": 143,
+  "byte_count": 183772123,
   "song_audio_files": 28,
   "world_map_files": 1,
   "pages": [
@@ -74,6 +74,8 @@
     "/sessions/session27/summary",
     "/sessions/session28/diary",
     "/sessions/session28/summary",
+    "/sessions/session29/diary",
+    "/sessions/session29/summary",
     "/songbook/1/lyrics",
     "/songbook/2/lyrics",
     "/songbook/3/lyrics",
